@@ -28,6 +28,7 @@ export default async function Page({
           key={question.id}
           href={`/ui/questions/${question.id}`}>
           <Question
+            key={question.id}
             id={question.id}
             text={question.title}
             votes={question.votes}
